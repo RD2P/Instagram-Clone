@@ -1,0 +1,17 @@
+.header {
+  margin-top: 0;
+  background-color: lightcoral;
+  display:flex;
+  flex-direction: column;
+  height: 400px;
+  max-width: 1100px;
+}
+
+.banner{
+  background-color: lightcyan;
+  display: flex;
+}
+
+.reels-slider{
+  background-color: rgb(230, 131, 200);
+}

@@ -1,0 +1,15 @@
+.sidebar {
+  background-color: lightgray;
+  position: fixed;
+  width: 245px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 245px;
+}
+
+.home-bar {
+  background-color: lightgreen;
+  border: 1px solid;
+}
