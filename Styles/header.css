@@ -3,13 +3,73 @@
   background-color: lightcoral;
   display:flex;
   flex-direction: column;
-  height: 400px;
   max-width: 1100px;
 }
 
 .banner{
-  background-color: lightcyan;
+  background-color: rgb(41, 112, 112);
   display: flex;
+  margin: 50px 10px;
+}
+
+.sed-profile-pic{
+  width: 150px;
+  border-radius: 100%;
+  margin: 40px;
+}
+
+.name-btn-level{
+  display: flex;
+  align-items: center;
+}
+
+.verified-name{
+  display: flex;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.profile-info{
+  flex: 1;
+}
+
+.verified-icon{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn{
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px 17px;
+  font-size: 13px;
+  transition: background-color 0.15s;
+}
+
+.follow-btn{
+  background-color: #0095F6;
+  color: white;
+}
+
+.follow-btn:hover{
+  background-color: #0588df;
+}
+.message-btn:hover{
+  background-color: rgb(219, 219, 219);
+}
+
+.follow-icon{
+  height: 32px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.follow-icon:hover{
+  opacity: 0.8;
 }
 
 .reels-slider{
