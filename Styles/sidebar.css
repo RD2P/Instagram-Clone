@@ -18,23 +18,31 @@
   align-items: center;
   background-color: black;
 }
+
+.ig-logo{
+  width: 120px;
+}
+
 .sidebar-tab {
   background-color: black;
-  height: 70px;
+  height: 54px;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
 .sidebar-icon{
-  padding: 15px;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 37px;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-text{
   flex: 1;
-  padding: 28px 0 10px 0;
-  font-size: 17px;
-  height: 40px;
+  font-size: 15px;
   align-items: center;
   justify-content: center;
 }
@@ -42,6 +50,8 @@
 .last-sidebar-tab{
   flex: 1;
   background-color: black;
-  align-items: bottom;
+  display: flex;
+  align-items: end;
+  padding-bottom: 15px;
 }
 
