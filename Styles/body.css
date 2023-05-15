@@ -1,8 +1,10 @@
 body {
   margin: 0;
   height: 3000px;
-  padding-left: 250px;
+  padding-left: 280px;
   background-color: lightblue;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 

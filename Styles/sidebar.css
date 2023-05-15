@@ -1,15 +1,47 @@
 .sidebar {
   background-color: lightgray;
   position: fixed;
-  width: 245px;
+  width: 260px;
   top: 0;
   left: 0;
   bottom: 0;
-  display: grid;
-  grid-template-columns: 245px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0;
+  border-right: 1px solid lightgray;
 }
 
-.home-bar {
-  background-color: lightgreen;
-  border: 1px solid;
+.instagram-logo{
+  display: flex;
+  height: 110px;
+  padding-left: 15px;
+  align-items: center;
+  background-color: black;
 }
+.sidebar-tab {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-icon{
+  padding: 15px;
+}
+
+.sidebar-text{
+  flex: 1;
+  padding: 28px 0 10px 0;
+  font-size: 17px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-sidebar-tab{
+  flex: 1;
+  background-color: black;
+  align-items: bottom;
+}
+
