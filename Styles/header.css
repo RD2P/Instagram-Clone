@@ -12,6 +12,10 @@
   margin: 50px 10px;
 }
 
+.profile-pic{
+  background-color: black;
+}
+
 .sed-profile-pic{
   width: 150px;
   border-radius: 100%;
@@ -31,6 +35,8 @@
 
 .profile-info{
   flex: 1;
+  width: 615px;
+  background-color: black;
 }
 
 .verified-icon{
@@ -70,6 +76,47 @@
 
 .follow-icon:hover{
   opacity: 0.8;
+}
+
+.options-icon{
+  margin-left: 10px;
+}
+
+/*ACCOUNT STATS*/
+.account-stats{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.account-stats div{
+  margin-right: 20px;
+}
+
+.stats-number{
+  font-weight: 500;
+}
+
+.account-blurb p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.account-blurb-a{
+  font-size: 14px;
+  font-weight: 500;
+}
+.account-blurb-b{
+  font-size: 14px;
+}
+.account-blurb-c{
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(224, 241, 255);
+}
+.account-blurb-c:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .reels-slider{
