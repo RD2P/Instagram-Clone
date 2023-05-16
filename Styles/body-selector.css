@@ -1,0 +1,24 @@
+.body-display-selector-bar{
+  display: flex;
+  width: 1100px;
+  justify-content: center;
+}
+.body-display-selector{
+  display: flex;
+  justify-content: space-between;
+}
+    .body-display-options{
+      display: flex;
+      padding: 20px 40px;
+      font-weight: 200;
+      opacity: 0.6;
+      justify-content: center;
+      align-items: center;
+    }
+    .body-display-options:hover{
+      border-top: 2px solid white;
+      font-weight: 600;
+    }
+    .body-display-option-text{
+      margin: 0 10px;
+    }
